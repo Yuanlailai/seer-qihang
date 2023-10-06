@@ -13,6 +13,7 @@
 // @grant           none
 // @license         GPL-3.0-or-later
 // ==/UserScript==
+
 (function () {
     'use strict';
     //去除左侧小贴士
@@ -693,7 +694,7 @@
         var ziyuan2 = document.createElement("button");
         ziyuan2.innerHTML = "资源2";
         ziyuan2.style.margin = "4px";
-        ziyuan2.style.width = "50px";
+        ziyuan2.style.width = "55px";
         ziyuan2.style.height = "30px";
         // 在点击按钮时输出日志到文本框中
         ziyuan2.onclick = async function () {
@@ -882,7 +883,6 @@
         button3.style.margin = "4px";
         button3.style.width = "45px";
         button3.style.height = "30px";
-        button3.style.marginLeft = "10px"
         // 在点击按钮时输出日志到文本框中
         button3.onclick = async function () {
             await getResource()
